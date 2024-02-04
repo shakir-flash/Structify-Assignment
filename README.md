@@ -23,6 +23,14 @@ The algorithm works as follows:
 
 4. **Return Count**: After the sweep is complete, we return the total count of intersections.
 
+## Big O Runtime Estimation
+
+The algorithm's time complexity is O(N log N), where N is the number of chords. This estimation is due to the following:
+
+- Sorting the chords by their starting points has a complexity of O(N log N), which is the most time-consuming part of the algorithm.
+- Iterating through the sorted chords to count intersections involves operations that, in aggregate, contribute to a linear O(N) complexity.
+- Since sorting is the most significant operation, it dictates the overall time complexity of the algorithm.
+
 ## How to Run
 
 To run the script, you can run the ipynb or py code. The function is designed to operate with two arguments- 'radiants' and 'identifiers'. 
