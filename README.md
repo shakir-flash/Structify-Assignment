@@ -28,3 +28,6 @@ The algorithm works as follows:
 To run the script, you can run the ipynb or py code. The function is designed to operate with two arguments- 'radiants' and 'identifiers'. 
 You can create a new line of code to initialise these two arguments and use it for the function call. The function returns the number of intersections. 
 
+## Note
+The example 2 given in the assignment contains the naming of "s1", "s2", "e1" and "e2", however i have stuck to the nomenclature given in the problem description of "s_1", "s_2", "se_1" and "e_2" to parse the key and index. If i were to parse two different types of inputs, i was to take a different - more generalized way to extract the key and index. I stuck to the nomenclature given in the problem statement.
+
